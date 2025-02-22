@@ -9,7 +9,7 @@ body {
   
   .image-container {
     width: 75%;
-    background-image: url('https://pbs.twimg.com/media/FTIDExVVsAAJfxf.jpg:large');
+    background-image: url(img/login.jpg_large);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -18,7 +18,7 @@ body {
     color: white;
     text-align: center;
     position: relative;
-  }
+}
   
   .image-container h1 {
     font-size: 3em;
