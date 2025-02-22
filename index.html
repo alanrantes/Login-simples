@@ -7,10 +7,11 @@
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!--Adicionar foto aqui-->
-    <div class="image-container">
-    </div>
+
+    <div class="image-container"></div>
+
     <div class="login-container">
         <h2>Login</h2>
         <form id="loginForm">
@@ -19,22 +20,8 @@
             <button type="submit">Entrar</button>
         </form>
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            document.getElementById('loginForm').addEventListener('submit', function (event) {
-                event.preventDefault();
 
-                const username = document.getElementById('username').value;
-                const password = document.getElementById('password').value;
-
-                console.log('Usuário:', username);
-                console.log('Senha:', password);
-
-                alert('Acesso Concedido!');
-            });
-        });
-
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
